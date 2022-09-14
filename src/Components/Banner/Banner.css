@@ -1,3 +1,32 @@
 #banner {
-  background-color: #efa64d;
+  background-color: red;
+  /* background-color: #efa64d; */
+  height: 100vh;
+width: 100vw;
+}
+
+.bannerInfo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.bannerGraphic {
+  width: 100%;
+  display: block;
+  /* height: 100px; */
+  z-index: 100;
+}
+
+.wavyEdge {
+  /* background-color: red; */
+  /* border: 50px wave green; */
+  /* border: #efa64d wave 10px; */
+  /* background-color: #efa64d; */
+  /* border-style: wavy; */
+  height: 100px;
+  width: 100vw;
+  z-index: -1
 }
