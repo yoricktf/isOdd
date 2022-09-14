@@ -7,7 +7,6 @@ import wave from '../../wave.svg'
 const Banner = () => {
   return (
     <>
-
       <div id='banner'>
         <div className='bannerInfo'>
           <h1>isOdd API</h1>
@@ -15,8 +14,6 @@ const Banner = () => {
           <Button>View Docs</Button>
         </div>
         <img className='bannerGraphic' src={Bannergraphic} alt='banner graphic' />
-
-
       </div>
       <img className='wavyEdge' src={wave} alt='wave graphic' />
     </>
