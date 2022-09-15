@@ -6,29 +6,24 @@ import BluthLogo from '../../BluthLogo.png'
 import { Carousel } from 'react-bootstrap'
 
 const Clients = () => {
+
+  const slides = [
+    { image: LonoLogo, alt: 'Lono Logo' },
+    { image: AnustartLogo, alt: 'Anustart Logo' },
+    { image: BluthLogo, alt: 'Bluth Logo' },
+  ]
+
   return (
     <Carousel controls={false} indicators={false}>
-      <Carousel.Item>
-        <img
-          className="d-inline companyLogo"
-          src={LonoLogo}
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-inline companyLogo"
-          src={AnustartLogo}
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-inline companyLogo"
-          src={BluthLogo}
-          alt="Third slide"
-        />
-      </Carousel.Item>
+      {slides.map(slide => (
+        <Carousel.Item>
+          <img
+            className="d-inline companyLogo"
+            src={slide.image}
+            alt={slide.alt}
+          />
+        </Carousel.Item>
+      ))}
     </Carousel>
   )
 }
