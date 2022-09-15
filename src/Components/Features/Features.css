@@ -1,0 +1,16 @@
+.miniTitle {
+  color: #efa64d;
+}
+
+.features {
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 70px;
+}
+
+.featureImage {
+  height: 250px;
+  width: auto;
+}
