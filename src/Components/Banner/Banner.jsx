@@ -2,7 +2,7 @@ import React from 'react'
 import './Banner.css'
 import Button from 'react-bootstrap/Button'
 import Bannergraphic from '../../BannerGraphic.svg'
-import wave from '../../wave.svg'
+import waveTop from '../../waveTop.svg'
 
 const Banner = () => {
   return (
@@ -15,7 +15,7 @@ const Banner = () => {
         </div>
         <img className='bannerGraphic' src={Bannergraphic} alt='banner graphic' />
       </div>
-      <img className='wavyEdge' src={wave} alt='wave graphic' />
+      <img className='wavyEdge' src={waveTop} alt='wave graphic' />
     </>
   )
 }
