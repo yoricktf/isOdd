@@ -5,6 +5,7 @@ import Banner from './Components/Banner/Banner';
 import Clients from './Components/Clients/Clients';
 import Features from './Components/Features/Features';
 import Docs from './Components/Docs/Docs';
+import Pricing from './Components/Pricing/Pricing';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Clients />
       <Features />
       <Docs />
+      <Pricing />
     </div>
   );
 }
