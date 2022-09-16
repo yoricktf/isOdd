@@ -1,0 +1,17 @@
+.carousel-item {
+
+}
+
+.profileImage {
+  width: 150px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.review {
+  /* max-width: 400px; */
+}
+
+.author{
+  font-weight: bold;
+}
