@@ -19,7 +19,7 @@ const testimonials = () => {
 
   return (
     <section className='testmonials'>
-      <Carousel indicators={false} variant='dark'>
+      <Carousel indicators={false} variant='dark' className='container'>
         {reviews.map((review, index) => (
           <Carousel.Item key={index}>
             <Image
