@@ -1,16 +1,20 @@
 import React from 'react'
 import './Clients.css'
 import LonoLogo from '../../LonoLogo.png'
-import AnustartLogo from '../../AnustartLogo.png'
 import BluthLogo from '../../BluthLogo.png'
+import SpeednetLogo from '../../SpeednetLogo.png'
+import MctreeLogo from '../../MctreeLogo.png'
+import Atticus from '../../AtticusLogo.png'
 import { Carousel } from 'react-bootstrap'
 
 const Clients = () => {
 
   const slides = [
     { image: LonoLogo, alt: 'Lono Logo' },
-    { image: AnustartLogo, alt: 'Anustart Logo' },
     { image: BluthLogo, alt: 'Bluth Logo' },
+    { image: SpeednetLogo, alt: 'Speednet Logo' },
+    { image: MctreeLogo, alt: 'Mctree Logo' },
+    { image: Atticus, alt: 'Atticus Profile Picture' }
   ]
 
   return (
