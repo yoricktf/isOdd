@@ -18,7 +18,7 @@ const Clients = () => {
   ]
 
   return (
-    <Carousel controls={false} indicators={false}>
+    <Carousel controls={false} indicators={false} interval={3000}>
       {slides.map(slide => (
         <Carousel.Item>
           <img
