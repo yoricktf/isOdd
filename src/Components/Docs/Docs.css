@@ -8,3 +8,7 @@
 .codeSnippet > p {
   margin: 0;
 }
+
+#documentation {
+  scroll-margin-top: 55px;
+}

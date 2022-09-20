@@ -3,7 +3,7 @@ import './Docs.css'
 
 const Docs = () => {
   return (
-    <section className='container documentation'>
+    <section id='documentation' className='container'>
       <h2>isOdd Public API Docs</h2>
       <p>isOdd API is a RESTful API that returns json</p>
       <div className="container">
