@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <img src={waveBottom} alt="" />
       <footer>
-        <section className=''>
+        <section className='footerInfo'>
           <div>
             <h4>About isOdd</h4>
             <p>We're passionate about telling you if a number is odd or even so you can focus on more important things</p>
@@ -31,8 +31,10 @@ const Footer = () => {
           </div>
         </section>
         <hr />
-        <h6>Copyright © 2022 Yorick</h6>
-        <h6>not affliated with wikipedia</h6>
+        <section className="copyrightInfo">
+          <h6>Copyright © 2022 Yorick</h6>
+          <h6>not affliated with UNHCR</h6>
+        </section>
       </footer>
     </>
   )

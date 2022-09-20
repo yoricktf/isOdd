@@ -2,8 +2,29 @@ footer {
   background-color: #efa64d;
 }
 
-footer>section {
-  display: flex;
+.footerInfo,
+.copyrightInfo{
+display: flex;
+justify-content: space-between;
+width: 80vw;
+margin: auto;
+}
 
+.footerInfo > div {
+  width: 25vw;
+  padding: 1rem;
+}
 
+footer > h6 {
+  margin: 0;
+  padding: 10px;
+}
+
+footer > hr {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.copyrightInfo {
+  padding: 1rem;
 }
