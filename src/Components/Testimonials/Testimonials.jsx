@@ -10,10 +10,10 @@ import Image from 'react-bootstrap/Image'
 const testimonials = () => {
 
   const reviews = [
-    { image: Yorick, review: "isOdd is my go to tool for every project that I do, I don't know what I would do without it. I ended up buying the Enterprise version so that my whole team can make use of it at work", author: 'Yorick ten Feld - Fullstack Javascript developer' },
-    { image: Alia, review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nesciunt iste voluptatem, non sit doloremque eum quaerat reprehenderit.', author: 'Alia Taifi - Ruby Developer' },
-    { image: Hans, review: "I used isOdd in my personal life but ended up adopting it for the whole company, its simple to use but provides so much value, I didn't really have a choice", author: 'Hans Snoek - CTO of The Bluth Company' },
-    { image: Ted, review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum voluptatem delectus ducimus officiis eius nihil.', author: 'Ted Grimes - Python Developer' },
+    { image: Yorick, review: "isOdd is my go to tool for every project that I do, its the first thing I implement every time.", author: 'Yorick ten Feld - Fullstack Javascript developer' },
+    { image: Alia, review: 'isOdd takes away the pain of doing all the math of trying to understand whether a number is odd, life saver.', author: 'Alia Taifi - Ruby Developer' },
+    { image: Hans, review: "I used isOdd in my personal life but ended up purchasing the Enterprise package for the whole company, its simple to use but provides so much value, I didn't really have a choice!", author: 'Hans Snoek - CTO of The Bluth Company' },
+    { image: Ted, review: 'Math has never been my strong suit, to be able to not have to worry and make sure I know if a number is odd is invaluable.', author: 'Ted Grimes - Python Developer' },
   ]
 
 
