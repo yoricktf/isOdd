@@ -14,17 +14,20 @@ const Features = () => {
 
 
   return (
-    <div className='features'>
+    <section id='features'>
       <p className='miniTitle'>features</p>
       <h2>Let our API deliver instant numerical information</h2>
-      {featuresArray.map(feature => (
-        <div className="feature">
-          <img className='featureImage' src={feature.image} alt={feature.alt} />
-          <h4>{feature.title}</h4>
-          <p>{feature.description}</p>
-        </div>
-      ))}
-    </div>
+      <div className="allFeatures">
+
+        {featuresArray.map(feature => (
+          <div className="feature">
+            <img className='featureImage' src={feature.image} alt={feature.alt} />
+            <h4>{feature.title}</h4>
+            <p>{feature.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
   )
 }
 

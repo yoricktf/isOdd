@@ -1,16 +1,29 @@
 .miniTitle {
   color: #efa64d;
+  margin-bottom: 0;
 }
 
-.features {
+#features {
   text-align: center;
+  margin-top: 40px;
 }
 
 .feature {
   margin-bottom: 70px;
+  max-width: 350px;
 }
 
 .featureImage {
   height: 250px;
   width: auto;
+}
+
+.allFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#features {
+  scroll-margin-top: 55px;
 }
