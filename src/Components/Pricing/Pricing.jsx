@@ -11,7 +11,7 @@ const Pricing = () => {
   ]
 
   return (
-    <section className='container pricingSection'>
+    <section id='pricingSection' className='container'>
       <p className='miniTitle'>Pricing</p>
       <h2>Pricing Options Table</h2>
 
@@ -28,7 +28,7 @@ const Pricing = () => {
               {plan.features.map((feature, index) => (
                 <Card.Text>{feature}</Card.Text>
               ))}
-              {plan.button ? <div className='buttonContainer'><Button variant="primary">Subscribe</Button></div> : null}
+              {plan.button ? <div className='buttonContainer'><Button href='https://donate.unhcr.org/int/en/general' variant="">Subscribe</Button></div> : null}
             </Card.Body>
           </Card>
         ))}
