@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar/Navbar';
@@ -10,6 +11,19 @@ import Testimonials from './Components/Testimonials/Testimonials';
 import Footer from './Components/Footer/Footer';
 
 function App() {
+
+
+  const [data, setData] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
+
+
+
+
   return (
     <div className="App">
       <Navbar />
