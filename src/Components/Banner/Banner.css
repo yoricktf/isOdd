@@ -2,26 +2,29 @@
   background-color: #efa64d;
   height: 70vh;
   width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .bannerInfo {
   color: #fff;
-  font-size: 1.5rem;
   font-weight: bold;
-  text-align: center;
-  padding-top: 8rem;
+  padding: 8rem 8rem 0;
+}
+
+.bannerInfo h1 {
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .bannerGraphic {
   display: block;
   z-index: 100;
-  position: absolute;
-  max-width: 750px;
+  max-width: 650px;
   height: auto;
-}
-
-.wavyEdge {
-  z-index: -1
+  margin-top: 20px;
 }
 
 #banner>div>button {
