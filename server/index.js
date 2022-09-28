@@ -27,18 +27,18 @@ app.get("/api", (req, res) => {
   let number = req.query.number
   let advertIndex = Math.floor(Math.random() * adverts.length)
 
-  if (number % 2 === 1) {
+  if (Number.isInteger(Number(number))) {
     res.json(
       {
-        isodd: true,
         ad: adverts[advertIndex],
+        number: number,
+        isodd: number % 2 === 1 ? true : false
       }
     )
   } else {
     res.json(
       {
-        isodd: false,
-        ad: adverts[advertIndex],
+        error: "I can't even begin to tell you how silly this input is. Please enter an actual number."
       }
     )
   }
