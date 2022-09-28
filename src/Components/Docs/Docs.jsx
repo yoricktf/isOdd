@@ -16,14 +16,14 @@ const Docs = () => {
       </div>
       <h5>Example API Response</h5>
       <div className='codeSnippet'>
-        <p>$ curl https://api.isoddapi.xyz/api/isodd/6/</p>
+        <p>$ curl https://api.isoddapi.xyz/api?number=3</p>
         <p>
           <br />
           &#123;{/* code for '{' charecter */}
           <br />
-          "iseven": true,
+          "isodd": true,
           <br />
-          "ad": "Buy isOddCoin, the hottest new cryptocurrency!"
+          "ad": "Hire Yorick ten Feld, fullstack dev!"
           <br />
           &#125;{/* code for '}' charecter */}
         </p>
