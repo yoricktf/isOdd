@@ -1,5 +1,4 @@
 const express = require("express");
-
 const PORT = process.env.PORT || 5000;
 const path = require('path');
 const app = express();
@@ -31,14 +30,14 @@ app.get("/api", (req, res) => {
   if (number % 2 === 1) {
     res.json(
       {
-        result: true,
+        isodd: true,
         ad: adverts[advertIndex],
       }
     )
   } else {
     res.json(
       {
-        result: false,
+        isodd: false,
         ad: adverts[advertIndex],
       }
     )
