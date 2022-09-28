@@ -2,6 +2,10 @@ footer {
   background-color: #efa64d;
 }
 
+.footerInfo {
+  flex-wrap: wrap;
+}
+
 .footerInfo,
 .copyrightInfo{
 display: flex;
@@ -11,7 +15,7 @@ margin: auto;
 }
 
 .footerInfo > div {
-  width: 25vw;
+  max-width: 350px;
   padding: 1rem;
 }
 

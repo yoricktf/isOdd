@@ -5,7 +5,7 @@ import BluthLogo from '../../BluthLogo.png'
 import SpeednetLogo from '../../SpeednetLogo.png'
 import MctreeLogo from '../../MctreeLogo.png'
 import Atticus from '../../AtticusLogo.png'
-import { Carousel } from 'react-bootstrap'
+import Carousel from 'react-bootstrap/Carousel'
 
 const Clients = () => {
 

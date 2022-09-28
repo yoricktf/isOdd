@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from 'react-bootstrap/card'
-import Button from 'react-bootstrap/button'
+import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 import './Pricing.css'
 
 const Pricing = () => {
