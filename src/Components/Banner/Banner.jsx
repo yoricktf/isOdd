@@ -11,7 +11,7 @@ const Banner = () => {
         <div className='bannerInfo'>
           <h1>isOdd API</h1>
           <p>use isOdd to tell if a number is odd</p>
-          <Button variant="light">View Docs</Button>
+          <Button href='#documentation'>View Docs</Button>
         </div>
         <img className='bannerGraphic' src={Bannergraphic} alt='banner graphic' />
       </div>
