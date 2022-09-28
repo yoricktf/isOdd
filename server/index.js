@@ -21,7 +21,7 @@ const adverts = [
   "Sabre Printers - For all your printing needs"
 ]
 
-app.use(express.static(path.resolve(__dirname, '../client/build')));
+// app.use(express.static(path.resolve(__dirname, '../client/build')));
 
 app.get("/api", (req, res) => {
   let number = req.query.number
