@@ -1,9 +1,9 @@
 import React from 'react'
 import './Testimonials.css'
-import Yorick from '../../YorickProfile.png'
-import Alia from '../../AliaProfile.png'
-import Hans from '../../HansProfile.png'
-import Ted from '../../TedProfile.png'
+import Yorick from '../../Assets/YorickProfile.png'
+import Alia from '../../Assets/AliaProfile.png'
+import Hans from '../../Assets/HansProfile.png'
+import Ted from '../../Assets/TedProfile.png'
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
 

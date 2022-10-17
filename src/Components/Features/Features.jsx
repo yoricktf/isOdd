@@ -1,8 +1,8 @@
 import React from 'react'
 import './Features.css'
-import odd from '../../odd.svg'
-import even from '../../even.svg'
-import grow from '../../grow.svg'
+import odd from '../../Assets/odd.svg'
+import even from '../../Assets/even.svg'
+import grow from '../../Assets/grow.svg'
 
 
 const Features = () => {

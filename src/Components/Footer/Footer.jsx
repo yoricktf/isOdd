@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import waveBottom from '../../waveBottom.svg'
+import waveBottom from '../../Assets/waveBottom.svg'
 
 const Footer = () => {
   return (

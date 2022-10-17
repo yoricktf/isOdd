@@ -1,10 +1,10 @@
 import React from 'react'
 import './Clients.css'
-import LonoLogo from '../../LonoLogo.png'
-import BluthLogo from '../../BluthLogo.png'
-import SpeednetLogo from '../../SpeednetLogo.png'
-import MctreeLogo from '../../MctreeLogo.png'
-import Atticus from '../../AtticusLogo.png'
+import LonoLogo from '../../Assets/LonoLogo.png'
+import BluthLogo from '../../Assets/BluthLogo.png'
+import SpeednetLogo from '../../Assets/SpeednetLogo.png'
+import MctreeLogo from '../../Assets/MctreeLogo.png'
+import Atticus from '../../Assets/AtticusLogo.png'
 import Carousel from 'react-bootstrap/Carousel'
 
 const Clients = () => {

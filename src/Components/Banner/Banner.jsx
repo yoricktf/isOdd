@@ -1,8 +1,8 @@
 import React from 'react'
 import './Banner.css'
 import Button from 'react-bootstrap/Button'
-import Bannergraphic from '../../BannerGraphic.svg'
-import waveTop from '../../waveTop.svg'
+import Bannergraphic from '../../Assets/BannerGraphic.svg'
+import waveTop from '../../Assets/waveTop.svg'
 
 const Banner = () => {
   return (
