@@ -38,7 +38,7 @@ app.get("/api", (req, res) => {
   } else {
     res.json(
       {
-        error: "I can't even begin to tell you how silly this input is. Please enter an actual number."
+        error: "I can't even begin to tell you how silly this input is. Please enter an actual whole number."
       }
     )
   }
