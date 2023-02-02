@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.177ffde2.css",
+    "main.js": "/static/js/main.b94ba797.js",
+    "static/js/787.baf6b3fc.chunk.js": "/static/js/787.baf6b3fc.chunk.js",
+    "static/media/AliaProfile.png": "/static/media/AliaProfile.e25194ff4d6288bb64df.png",
+    "static/media/AtticusLogo.png": "/static/media/AtticusLogo.3bd7764c7d9d5096d2cc.png",
+    "static/media/TedProfile.png": "/static/media/TedProfile.c822408372df85102d4a.png",
+    "static/media/grow.svg": "/static/media/grow.69b28122c2f4889beb459ddec7bc7fee.svg",
+    "static/media/MctreeLogo.png": "/static/media/MctreeLogo.0c1a2a573e29fb9bdd3e.png",
+    "static/media/SpeednetLogo.png": "/static/media/SpeednetLogo.e83728f990d78c3a8b35.png",
+    "static/media/BluthLogo.png": "/static/media/BluthLogo.2d8601cf29579ae12ca4.png",
+    "static/media/LonoLogo.png": "/static/media/LonoLogo.b19fe77e228a749401e5.png",
+    "static/media/even.svg": "/static/media/even.bfdb90e756e135e7ba5082d13b502907.svg",
+    "static/media/odd.svg": "/static/media/odd.654245b5c03debd65152c53702f573b8.svg",
+    "static/media/YorickProfile.png": "/static/media/YorickProfile.e127549ca5cad3f7f682.png",
+    "static/media/HansProfile.png": "/static/media/HansProfile.add1741cd99b3734cd18.png",
+    "static/media/BannerGraphic.svg": "/static/media/BannerGraphic.82400a23f201444ae79a1ceb4377bf10.svg",
+    "static/media/waveBottom.svg": "/static/media/waveBottom.089cc7306a1c60d82005ba45b2c7d058.svg",
+    "index.html": "/index.html",
+    "static/media/waveTop.svg": "/static/media/waveTop.a2a29352fd5614f3f86e336aa13b10d3.svg",
+    "main.177ffde2.css.map": "/static/css/main.177ffde2.css.map",
+    "main.b94ba797.js.map": "/static/js/main.b94ba797.js.map",
+    "787.baf6b3fc.chunk.js.map": "/static/js/787.baf6b3fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.177ffde2.css",
+    "static/js/main.b94ba797.js"
+  ]
+}

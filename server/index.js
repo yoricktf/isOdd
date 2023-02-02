@@ -1,5 +1,5 @@
 const express = require("express");
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5050;
 const path = require('path');
 const app = express();
 
@@ -21,7 +21,7 @@ const adverts = [
   "Sabre Printers - For all your printing needs"
 ]
 
-// app.use(express.static(path.resolve(__dirname, '../client/build')));
+app.use(express.static(path.resolve(__dirname, '../build')));
 
 app.get("/api", (req, res) => {
   let number = req.query.number
