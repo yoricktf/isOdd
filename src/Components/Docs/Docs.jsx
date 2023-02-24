@@ -12,18 +12,20 @@ const Docs = () => {
         <h5 className="font-weight-bold">URL Parameters</h5>
         <p>number: the number you want to check</p>
         <h5 className="font-weight-bold">Example</h5>
-        <a href="#">THE API URL WILL NEED TO GO HERE</a>
+        <a href="#">https://is-odd-api.herokuapp.com/</a>
       </div>
       <h5>Example API Response</h5>
       <div className='codeSnippet'>
-        <p>$ curl https://api.isoddapi.xyz/api?number=3</p>
+        <p>$ curl https://is-odd-api.herokuapp.com/api?number=3</p>
         <p>
           <br />
           &#123;{/* code for '{' charecter */}
           <br />
-          "isodd": true,
-          <br />
           "ad": "Hire Yorick ten Feld, fullstack dev!"
+          <br />
+          "number": 3
+          <br />
+          "isodd": true,
           <br />
           &#125;{/* code for '}' charecter */}
         </p>
