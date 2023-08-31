@@ -1,4 +1,4 @@
-# isOdd
+# [isOdd](https://is-odd-api.herokuapp.com/)
 
 ![Website](https://img.shields.io/website?label=IsOdd&style=flat-square&url=https://is-odd-api.herokuapp.com/)
 
