@@ -27,3 +27,10 @@
 #features {
   scroll-margin-top: 55px;
 }
+
+@media (max-width: 400px) {
+  #features,
+  .featureImage {
+    max-width: 320px;
+  }
+}

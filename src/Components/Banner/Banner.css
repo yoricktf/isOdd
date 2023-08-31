@@ -27,7 +27,7 @@
   margin-top: 20px;
 }
 
-#banner>div>.btn {
+#banner > div > .btn {
   width: 150px;
   border-radius: 2rem;
   border: solid 3px #fff;
@@ -35,7 +35,13 @@
   color: #efa64d;
 }
 
-#banner>div>.btn:hover {
+#banner > div > .btn:hover {
   background: transparent;
   color: #fff;
+}
+
+@media (max-width: 400px) {
+  .bannerInfo {
+    padding: 8rem 0 0;
+  }
 }
